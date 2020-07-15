@@ -19,14 +19,14 @@
 
   <h2>TV cartoons</h2>
   <div class="paintings">
-    <img *ngFor="let painting of tvCartoons" src="assets/paintings/{{painting.filename}}"
-      alt="Jon Michaelis-{{painting.name}}" (click)="openModal(painting.id)">
+    <img *ngFor="let paint of tvCartoons" src="assets/paintings/{{paint.filename}}"
+      alt="Jon Michaelis-{{paint.name}}" (click)="openModal(paint.id)">
   </div>
 
   <h2>selected artworks</h2>
   <div class="paintings">
-    <img *ngFor="let painting of paintings" src="assets/paintings/{{painting.filename}}"
-      alt="Jon Michaelis-{{painting.name}}">
+    <img *ngFor="let paint of paintings" src="assets/paintings/{{paint.filename}}"
+      alt="Jon Michaelis-{{paint.name}}">
   </div>
 
 </div>
