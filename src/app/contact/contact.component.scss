@@ -1,0 +1,35 @@
+.wrapper {
+
+  #form {
+    border-radius: 20px;
+    background-color: #e4e4e2;
+    padding: 20px;
+    padding-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    h4 {
+      text-align: center;
+      font-family: OurStory;
+      padding-top: 29px;
+      font-size: 43px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+  }
+
+}
+
+// media queries
+@media only screen and (max-width: 426px) {
+  .wrapper {
+    #form {
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}

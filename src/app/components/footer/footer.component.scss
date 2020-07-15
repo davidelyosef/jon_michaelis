@@ -1,0 +1,156 @@
+.wrapper {
+  width: 100%;
+  background-color: rgba(177, 175, 175, 0.75);
+  color: #000;
+  margin-right: 0;
+  margin-left: 0;
+
+  hr {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .footer-menu {
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    div {
+      display: inline-block;
+      width: 49%;
+      vertical-align: top;
+
+      .menuLinks {
+        text-align: left;
+        width: auto;
+        max-width: 100%;
+        font-family: libel;
+
+        h2 {
+          font-size: 17px;
+          margin-top: 25px;
+          margin-bottom: 15px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-weight: 600;
+          font-family: lora;
+        }
+
+        a {
+          color: #000;
+          transition: 1s;
+          font-weight: 100;
+          display: block;
+          font-size: 14px;
+
+          &:hover {
+            text-decoration: underline;
+            transition: 1s;
+          }
+        }
+
+        img {
+          height: 25px;
+          width: 25px;
+          margin: 5px;
+          margin-left: 0;
+          color: grey;
+          -webkit-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s;
+        }
+
+        span {
+          margin-bottom: 10px;
+          display: block;
+        }
+      }
+    }
+
+    .follow {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  .copyrights {
+    padding-bottom: 10px;
+    font-size: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    letter-spacing: 0.5px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  a {
+    color: #000;
+    font-weight: 100;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+// media queries
+@media only screen and (min-width: 801px) {
+  .wrapper {
+    .footer-menu {
+      div {
+        width: 100%;
+
+        .menuLinks {
+          a {
+            display: inline-block;
+            margin: 8px;
+          }
+
+          h2 {
+            display: inline-table;
+          }
+
+          span {
+            margin-bottom: 10px;
+            display: inline-block;
+            margin: 10px;
+          }
+        }
+      }
+
+      .follow {
+        margin-top: 10px;
+        margin-bottom: -17px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .wrapper {
+    .footer-menu {
+      div {
+        width: 100%;
+
+        .menuLinks {
+          h2 {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    .copyrights {
+      font-size: 9px;
+      padding-left: 0;
+      padding-right: 0;
+
+      a {
+        font-size: 9px;
+      }
+    }
+  }
+}

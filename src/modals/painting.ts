@@ -4,6 +4,7 @@ export class Painting {
         public filename?: string,
         public name?: string,
         public size?: string,
-        public material?: string
+        public material?: string,
+        public category?: string
     ){};
 }

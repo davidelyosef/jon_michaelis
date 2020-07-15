@@ -1,11 +1,19 @@
 .wrapper {
 
-    .paintings {
-        column-count: 3;
-        column-gap: 20px;
-        img {
-            max-width: 100%;
-            margin-bottom: 20px;
-        }
+  .paintings {
+    column-count: 3;
+    column-gap: 20px;
+    margin-bottom: 50px;
+
+    img {
+      max-width: 100%;
+      margin-bottom: 20px;
     }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-family: OurStory;
+    font-size: 2rem;
+  }
 }
