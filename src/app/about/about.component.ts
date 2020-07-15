@@ -24,11 +24,5 @@ public closeModal() {
  
   this.artworkModal.nativeElement.style.display = 'none';
 }
-  public myResume(): void {
-
-   
-      window.open('/assets/cv/uri-blayer-cv.pdf' );
-    
-  }
 
 }

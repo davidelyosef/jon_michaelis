@@ -1,6 +1,14 @@
 .wrapper {
 
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 102, 32, 0.5);
+
     h1{
+        padding-top:20px;
         text-align:center;
     }
     #aboutDiv {
@@ -19,24 +27,13 @@
             cursor : pointer;
           }
        }
-  
-      #myResume {
-        cursor: pointer;
-        color: darkred;
-      }
-  
-    
-  
-    
       h6 {
         font-size: 15px;
       }
       
-    
       h3 {
-      //   white-space: nowrap;
         margin-top: 30px;
-        font-size: 17px;
+        font-size: 18px;
         text-align: justify;
         line-height: 1.5;
       }
