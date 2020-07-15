@@ -1,9 +1,26 @@
+<div *ngIf="painting" class="img-modal" #artworkModal
+  (keyup.arrowleft)="previousImage()" (keyup.arrowright)="nextImage()" (keyup.escape)="closeModal()">
+ 
+    <div class="contain">
+
+      <img src="assets/paintings/{{painting.filename}}" alt='' loading=lazy>
+      <h2>name:{{painting.name}} material:{{painting.material}} size:{{painting.size}} year:{{painting.year}} id:{{painting.id}}</h2>
+
+    </div>
+
+    <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>
+    <button (click)="previousImage()" id="prev" class="arrows" title="previous"></button>
+    <button (click)="nextImage()" id="next" class="arrows" title="next"></button>
+
+  </div>
+
+
 <div class="wrapper">
 
   <h2>TV cartoons</h2>
   <div class="paintings">
     <img *ngFor="let painting of tvCartoons" src="assets/paintings/{{painting.filename}}"
-      alt="Jon Michaelis-{{painting.name}}">
+      alt="Jon Michaelis-{{painting.name}}" (click)="openModal(painting.id)">
   </div>
 
   <h2>splash</h2>
