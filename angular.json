@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "JonMichaelis"
+    }
+  },
+  "defaultProject": "JonMichaelis",
+  "cli": {
+    "analytics": false
+  }
 }
