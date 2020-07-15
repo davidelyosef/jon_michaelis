@@ -31,7 +31,7 @@ export class PaintingsComponent implements OnInit {
           this.paintings = paintings;
           if (painting.category === 'splash') this.splash.push(painting);
           else if (painting.category === 'tv cartoons') this.tvCartoons.push(painting);
-          else this.paintings.push(painting);
+          // else this.paintings.push(painting);
         })
       );
   }
