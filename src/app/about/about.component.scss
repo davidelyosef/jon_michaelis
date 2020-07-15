@@ -1,0 +1,72 @@
+.wrapper {
+
+    h1{
+        text-align:center;
+    }
+    #aboutDiv {
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+
+      #imageDiv{
+           width:60%;
+           margin: auto;
+        img {
+            display: block;
+            width: 100%;
+            margin-top: 30px;
+            margin-bottom: 3px;
+            cursor : pointer;
+          }
+       }
+  
+      #myResume {
+        cursor: pointer;
+        color: darkred;
+      }
+  
+    
+  
+    
+      h6 {
+        font-size: 15px;
+      }
+      
+    
+      h3 {
+      //   white-space: nowrap;
+        margin-top: 30px;
+        font-size: 17px;
+        text-align: justify;
+        line-height: 1.5;
+      }
+     
+    }
+  }
+  
+  
+  @media only screen and (max-width: 425px) {
+    .wrapper {
+      margin-top:37px;
+      #aboutDiv {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    
+     
+        h6 {
+          font-size: 14px;
+        }
+        
+      
+        h3 {
+          margin-top: 20px;
+          font-size: 15px;
+         
+        }
+       
+      }
+    }
+  }
+  
