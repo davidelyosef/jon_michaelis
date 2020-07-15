@@ -99,15 +99,6 @@
     },
 
     {
-        "id": 29,
-        "filename": "popeye-num2-60x60.JPG",
-        "name": "popeye",
-        "size": "60 x 60 cm",
-        "material": "Mixed media",
-        "category": "tv cartoons" 
-    },
-
-    {
         "id": 28,
         "filename": "sylvester-the-cat.JPG",
         "name": "sylvester",
@@ -221,7 +212,7 @@
         "name": "Splash",
         "size": " cm",
         "material": "Mixed media",
-        "category": "splash" 
+        "category": "" 
     },
 
     {
@@ -230,7 +221,7 @@
         "name": "Splash",
         "size": " cm",
         "material": "Mixed media",
-        "category": "splash" 
+        "category": "" 
     },
 
     {
@@ -239,7 +230,7 @@
         "name": "Splash",
         "size": " cm",
         "material": "Mixed media",
-        "category": "splash" 
+        "category": "" 
     },
 
     {
@@ -248,7 +239,7 @@
         "name": "Splash with mickey mouse",
         "size": " cm",
         "material": "Mixed media",
-        "category": "splash" 
+        "category": "" 
     },
 
     {
