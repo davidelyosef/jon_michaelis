@@ -90,10 +90,10 @@
     },
 
     {
-        "id": 30,
-        "filename": "popeye-black-border-num1-80x60.JPG",
+        "id": 29,
+        "filename": "popeye-num2-60x60.JPG",
         "name": "popeye",
-        "size": "80 x 60 cm",
+        "size": "60 x 60 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
     },
@@ -141,69 +141,6 @@
         "size": "57 x 47 cm",
         "material": "Mixed media",
         "category": "celebrities" 
-    },
-
-    {
-        "id": 23,
-        "filename": "splash-num-1-michaelis.JPG",
-        "name": "Splash",
-        "size": " cm",
-        "material": "Mixed media",
-        "category": "splash" 
-    },
-
-    {
-        "id": 22,
-        "filename": "splash-num-2-michaelis.JPG",
-        "name": "Splash",
-        "size": " cm",
-        "material": "Mixed media",
-        "category": "splash" 
-    },
-
-    {
-        "id": 21,
-        "filename": "splash-num-3-michaelis.JPG",
-        "name": "Splash",
-        "size": " cm",
-        "material": "Mixed media",
-        "category": "splash" 
-    },
-
-    {
-        "id": 20,
-        "filename": "splash-num-4-michaelis-120x140.JPG",
-        "name": "Splash",
-        "size": "120 x 140 cm",
-        "material": "Mixed media",
-        "category": "splash" 
-    },
-
-    {
-        "id": 19,
-        "filename": "splash-num-5-michaelis-120x140.JPG",
-        "name": "Splash",
-        "size": "120 x 140 cm",
-        "material": "Mixed media",
-        "category": "splash" 
-    },
-
-    {
-        "id": 18,
-        "filename": "splash-num-6-michaelis.JPG",
-        "name": "Splash",
-        "size": " cm",
-        "material": "Mixed media",
-        "category": "splash" 
-    },
-
-    {
-        "id": 17,
-        "filename": "splash-num-7-michaelis.JPG",
-        "name": "Splash",
-        "size": " cm",
-        "material": "Mixed media",
-        "category": "splash" 
     },
 
     {
