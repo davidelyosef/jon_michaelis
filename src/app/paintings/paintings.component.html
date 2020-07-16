@@ -1,32 +1,31 @@
-<div *ngIf="painting" class="img-modal" #artworkModal
-  (keyup.arrowleft)="previousImage()" (keyup.arrowright)="nextImage()" (keyup.escape)="closeModal()">
- 
-    <div class="contain">
+<div *ngIf="painting" class="img-modal" #artworkModal (keyup.arrowleft)="previousImage()"
+  (keyup.arrowright)="nextImage()" (keyup.escape)="closeModal()">
 
-      <img src="assets/paintings/{{painting.filename}}" alt='' loading=lazy>
-      <h2>name:{{painting.name}} material:{{painting.material}} size:{{painting.size}} year:{{painting.year}} id:{{painting.id}}</h2>
+  <div class="contain">
 
-    </div>
-
-    <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>
-    <button (click)="previousImage()" id="prev" class="arrows" title="previous"></button>
-    <button (click)="nextImage()" id="next" class="arrows" title="next"></button>
+    <img src="assets/paintings/{{painting.filename}}" alt='' loading=lazy>
+    <h2>name:{{painting.name}} material:{{painting.material}} size:{{painting.size}} year:{{painting.year}}
+      id:{{painting.id}}</h2>
 
   </div>
 
+  <button (click)="closeModal()" id="close" title="close" autofocus>&#10006;</button>
+  <button (click)="previousImage()" id="prev" class="arrows" title="previous"></button>
+  <button (click)="nextImage()" id="next" class="arrows" title="next"></button>
+
+</div>
 
 <div class="wrapper">
 
   <h2>TV cartoons</h2>
   <div class="paintings">
-    <img *ngFor="let paint of tvCartoons" src="assets/paintings/{{paint.filename}}"
-      alt="Jon Michaelis-{{paint.name}}" (click)="openModal(paint.id)">
+    <img *ngFor="let paint of tvCartoons" src="assets/paintings/{{paint.filename}}" alt="Jon Michaelis-{{paint.name}}"
+      (click)="openModal(paint)">
   </div>
 
   <h2>selected artworks</h2>
   <div class="paintings">
-    <img *ngFor="let paint of paintings" src="assets/paintings/{{paint.filename}}"
-      alt="Jon Michaelis-{{paint.name}}">
+    <img *ngFor="let paint of paintings" src="assets/paintings/{{paint.filename}}" alt="Jon Michaelis-{{paint.name}}">
   </div>
 
 </div>
