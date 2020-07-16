@@ -23,10 +23,10 @@
       alt="Jon Michaelis-{{painting.name}}" (click)="openModal(painting.id)">
   </div>
 
-  <h2>selected artworks</h2>
+  <h2>Selected artworks</h2>
   <div class="paintings">
     <img *ngFor="let painting of paintings" src="assets/paintings/{{painting.filename}}"
-      alt="Jon Michaelis-{{painting.name}}">
+      alt="Jon Michaelis-{{painting.name}}" (click)="openModal(painting.id)">
   </div>
 
 </div>
