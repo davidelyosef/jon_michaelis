@@ -62,7 +62,7 @@ export class PaintingsComponent implements OnInit {
     this.painting = this.paintingsModal[this.index];
   }
 
-// arrows + escape on keyboard
+// Arrows + escape on keyboard
   public onKeyUp(ev: KeyboardEvent) {
     if (ev.key === "ArrowLeft") {
       this.index--;

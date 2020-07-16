@@ -20,7 +20,7 @@
     {
         "id": 38,
         "filename": "garfield-cat.JPG",
-        "name": "garfield",
+        "name": "Garfield",
         "size": " cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
@@ -29,7 +29,7 @@
     {
         "id": 37,
         "filename": "mickey-mouse-by-michaelis-60x60.JPG",
-        "name": "mickey mouse",
+        "name": "Mickey Mouse",
         "size": "60 x 60 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
@@ -38,7 +38,7 @@
     {
         "id": 36,
         "filename": "mickey-mouse-pow.JPG",
-        "name": "mickey mouse POW!",
+        "name": "Mickey Mouse POW!",
         "size": " cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
@@ -47,7 +47,7 @@
     {
         "id": 35,
         "filename": "mini-mouse.JPG",
-        "name": "Minnie mouse",
+        "name": "Minnie Mouse",
         "size": " cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
@@ -74,7 +74,7 @@
     {
         "id": 32,
         "filename": "minnie-mouse-2017-60x60.JPG",
-        "name": "Minnie mouse, 2017",
+        "name": "Minnie Mouse, 2017",
         "size": "60 x 60 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
@@ -92,7 +92,7 @@
     {
         "id": 29,
         "filename": "popeye-num2-60x60.JPG",
-        "name": "popeye",
+        "name": "Popeye",
         "size": "60 x 60 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
@@ -101,7 +101,7 @@
     {
         "id": 28,
         "filename": "sylvester-the-cat.JPG",
-        "name": "sylvester",
+        "name": "Sylvester",
         "size": " cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
@@ -173,7 +173,7 @@
     {
         "id": 13,
         "filename": "splash-with-mickey-mouse.JPG",
-        "name": "Splash with mickey mouse",
+        "name": "Splash with Mickey Mouse",
         "size": " cm",
         "material": "Mixed media",
         "category": "" 
@@ -227,7 +227,7 @@
     {
         "id": 7,
         "filename": "dance-with-the-flow.JPG",
-        "name": "dance with the flow",
+        "name": "Dance with the flow",
         "size": " cm",
         "material": "Mixed media",
         "category": "" 
@@ -236,7 +236,7 @@
     {
         "id": 6,
         "filename": "oh-yes-100x70.JPG",
-        "name": "oh yes",
+        "name": "Oh yes",
         "size": " cm",
         "material": "Mixed media",
         "category": "" 
@@ -272,7 +272,7 @@
     {
         "id": 2,
         "filename": "untitled-pop-your-blob-michaelis-60x60.JPG",
-        "name": "pop your blob",
+        "name": "Pop your blob",
         "size": "60 x 60 cm",
         "material": "Mixed media",
         "category": "" 
