@@ -54,3 +54,57 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.container {
+  display: none;
+  cursor: pointer;
+  float: right;
+  width: 40px;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menuDropDown {
+  display: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+
+  div {
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+
+    a {
+      color: #5c5c5c;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #logo {
+    .container {
+      display: inline-block;
+    }
+    .menu {
+      display: none;
+    }
+  }
+}

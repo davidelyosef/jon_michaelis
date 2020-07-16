@@ -95,3 +95,15 @@
     border-bottom: 5px solid rgba(255, 255, 255, 0.47);
   }
 }
+
+@media only screen and (max-width: 520px) {
+  .wrapper {
+
+    .paintings {
+      
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+      }   
+     }
+    }

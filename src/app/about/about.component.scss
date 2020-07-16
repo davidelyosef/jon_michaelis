@@ -1,5 +1,4 @@
 .wrapper {
-
   margin-top: 50px;
   margin-right: 5%;
   margin-left: 5%;
@@ -8,6 +7,7 @@
   background-color: rgba(255, 102, 32, 0.5);
 
   h1 {
+    font-size: 40px;
     padding-top: 20px;
     text-align: center;
   }
@@ -31,10 +31,6 @@
       }
     }
 
-    h6 {
-      font-size: 15px;
-    }
-
     h3 {
       margin-top: 30px;
       font-size: 18px;
@@ -44,29 +40,25 @@
   }
 }
 
-
 @media only screen and (max-width: 425px) {
   .wrapper {
     margin-top: 37px;
+    h1 {
+      font-size: 30px;
+    }
 
     #aboutDiv {
       width: 90%;
       margin-left: 5%;
       margin-right: 5%;
 
-
-
-      h6 {
-        font-size: 14px;
+      #imageDiv{
+        width:100%;
       }
-
-
       h3 {
         margin-top: 20px;
-        font-size: 15px;
-
+        font-size: 17px;
       }
-
     }
   }
 }

@@ -40,7 +40,7 @@ export class PaintingsComponent implements OnInit {
     if (paint.category === 'tv cartoons'){
      this.paintingsModal = this.tvCartoons
     }
-    else(this.paintingsModal = this.paintings)
+    else(this.paintingsModal = this.paintings);
     this.index = this.paintingsModal.indexOf(paint);
     this.maxLength = this.paintingsModal.length - 1;
     this.artworkModal.nativeElement.style.display = 'block';
@@ -62,7 +62,7 @@ export class PaintingsComponent implements OnInit {
     this.painting = this.paintingsModal[this.index];
   }
 
-// Arrows + escape on keyboard
+// rrows + escape on keyboard
   public onKeyUp(ev: KeyboardEvent) {
     if (ev.key === "ArrowLeft") {
       this.index--;
