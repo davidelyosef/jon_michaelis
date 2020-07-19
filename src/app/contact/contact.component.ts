@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import * as firebase from 'firebase';
 
 
@@ -8,6 +8,7 @@ import * as firebase from 'firebase';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
+  @ViewChild ('sentMessageModal', {static :false}) sentMessageModal: ElementRef;
 
   public contact = {
     name: "",
@@ -24,14 +25,29 @@ export class ContactComponent implements OnInit {
 
   public sendMessage():void{
 
-    // console.log("hello")
+    console.log("sent");
 
+    this.sentMessageModal.nativeElement.style.display= 'block';
 
-    const newContact = firebase.functions().httpsCallable("newContact");
-
-    const result = newContact(this.contact);
-    // console.log(newContact);
-
+    setTimeout(function(){
+      window.location.replace("/home")},1000
+    );
   
+    const newContact = firebase.functions().httpsCallable("newContact");
+    const result = newContact(this.contact);
+
   }
+
+  public closeModal() {
+    this.sentMessageModal.nativeElement.style.display = 'none';
+
+    this.contact = {
+      name: "",
+      email: "",
+      phone:"",
+      subject:"",
+      message:""
+    }
+  }
+
 }
