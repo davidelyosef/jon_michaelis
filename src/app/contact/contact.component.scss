@@ -1,0 +1,58 @@
+.wrapper-contact{
+  margin-top:0px;
+
+  h4 {
+    text-align: center;
+    font-family: OurStory;
+    padding-top: 29px;
+    font-size: 43px;
+  }
+
+  form {
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  color: darkred;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  width: 100%;
+}
+
+}
+.contact-images {
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-height: 100px;
+    margin: 20px;
+  }
+}
+
+
+// media queries
+// @media only screen and (max-width: 426px) {
+//   .wrapper {
+//     #form {
+//       width: auto;
+//       margin-left: auto;
+//       margin-right: auto;
+//     }
+//   }
+// }
+
+
+
+
+
+
+
+
+
