@@ -36,17 +36,20 @@ button {
   }
 }
 
+.alert-danger{
+  z-index: -1;
+}
+
 
 // media queries
-// @media only screen and (max-width: 426px) {
-//   .wrapper {
-//     #form {
-//       width: auto;
-//       margin-left: auto;
-//       margin-right: auto;
-//     }
-//   }
-// }
+@media only screen and (max-width: 426px) {
+  .wrapper-contact {
+    form {
+      width: 90%;
+    }
+  }
+  
+}
 
 
 
