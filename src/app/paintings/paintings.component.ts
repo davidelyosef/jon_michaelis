@@ -66,13 +66,13 @@ export class PaintingsComponent implements OnInit {
   public onKeyUp(ev: KeyboardEvent) {
     if (ev.key === "ArrowLeft") {
       this.index--;
-      if (this.index == 0) this.index = this.paintingsModal.length - 1;
+      if (this.index < 0) this.index = this.paintingsModal.length - 1;
       this.painting = this.paintingsModal[this.index];
     }
   
     else if (ev.key === "ArrowRight") {
       this.index++;
-      if (this.index + 1 > this.maxLength) this.index = -1;
+      if (this.index > this.maxLength - 1) this.index = 0;
       this.painting = this.paintingsModal[this.index];
     }
   
