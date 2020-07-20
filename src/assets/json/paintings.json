@@ -21,7 +21,7 @@
         "id": 38,
         "filename": "garfield-cat.JPG",
         "name": "Garfield",
-        "size": " cm",
+        "size": "100 x 80 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
     },
@@ -39,7 +39,7 @@
         "id": 36,
         "filename": "mickey-mouse-pow.JPG",
         "name": "Mickey Mouse POW!",
-        "size": " cm",
+        "size": "100 x 80 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
     },
@@ -48,7 +48,7 @@
         "id": 35,
         "filename": "mini-mouse.JPG",
         "name": "Minnie Mouse",
-        "size": " cm",
+        "size": "100 x 80 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
     },
@@ -66,7 +66,7 @@
         "id": 33,
         "filename": "mini-mouse-lady.JPG",
         "name": "Untitled",
-        "size": " cm",
+        "size": "100 x 80 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
     },
@@ -102,7 +102,7 @@
         "id": 28,
         "filename": "sylvester-the-cat.JPG",
         "name": "Sylvester",
-        "size": "",
+        "size": "100 x 80 cm",
         "material": "Mixed media",
         "category": "tv cartoons" 
     },
@@ -147,7 +147,7 @@
         "id": 16,
         "filename": "splash-num-8-michaelis.JPG",
         "name": "Splash",
-        "size": " cm",
+        "size": "120 x 140 cm",
         "material": "Mixed media",
         "category": "" 
     },
@@ -156,7 +156,7 @@
         "id": 15,
         "filename": "splash-num-9-michaelis.JPG",
         "name": "Splash",
-        "size": " cm",
+        "size": "120 x 140 cm",
         "material": "Mixed media",
         "category": "" 
     },
@@ -165,7 +165,7 @@
         "id": 14,
         "filename": "splash-num-10-michaelis.JPG",
         "name": "Splash",
-        "size": " cm",
+        "size": "120 x 140 cm",
         "material": "Mixed media",
         "category": "" 
     },
@@ -174,7 +174,7 @@
         "id": 13,
         "filename": "splash-with-mickey-mouse.JPG",
         "name": "Splash with Mickey Mouse",
-        "size": " cm",
+        "size": "120 x 140 cm",
         "material": "Mixed media",
         "category": "" 
     },
@@ -183,7 +183,7 @@
         "id": 12,
         "filename": "flower-black-background.JPG",
         "name": "Untitled",
-        "size": " cm",
+        "size": "60 x 80 cm",
         "material": "Mixed media",
         "category": "flowers" 
     },
@@ -219,7 +219,7 @@
         "id": 8,
         "filename": "blue-eyeball.JPG",
         "name": "Untitled",
-        "size": " cm",
+        "size": "60 x 60 cm",
         "material": "Mixed media",
         "category": "" 
     },
@@ -228,7 +228,7 @@
         "id": 7,
         "filename": "dance-with-the-flow.JPG",
         "name": "Dance with the flow",
-        "size": " cm",
+        "size": "65 x 55 cm",
         "material": "Mixed media",
         "category": "" 
     },
@@ -237,7 +237,7 @@
         "id": 6,
         "filename": "oh-yes-100x70.JPG",
         "name": "Oh yes",
-        "size": " cm",
+        "size": "100 x 70 cm",
         "material": "Mixed media",
         "category": "" 
     },
@@ -246,7 +246,7 @@
         "id": 5,
         "filename": "pop-your-blob-white-background.JPG",
         "name": "Pop your blob",
-        "size": " cm",
+        "size": "60 x 60 cm",
         "material": "Mixed media",
         "category": "" 
     },
@@ -255,7 +255,7 @@
         "id": 4,
         "filename": "sitting-woman-portrait.JPG",
         "name": "Untitled",
-        "size": " cm",
+        "size": "65 x 55 cm",
         "material": "Mixed media",
         "category": "" 
     },

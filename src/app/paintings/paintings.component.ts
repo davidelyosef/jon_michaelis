@@ -73,13 +73,12 @@ export class PaintingsComponent implements OnInit {
     else if (ev.key === "ArrowRight") {
       this.index++;
       if (this.index + 1 > this.maxLength) this.index = -1;
-      this.painting = this.paintingsModal[this.index + 1];
+      this.painting = this.paintingsModal[this.index];
     }
   
     else if (ev.key === "Escape") {
       this.artworkModal.nativeElement.style.display = 'none';
     }
-    console.log(`The user just pressed ${ev.key}!`);
   }
 
 }
